@@ -1,0 +1,16 @@
+sudo: required
+
+group: deprecated-2017Q3
+
+language: scala
+scala:
+   - 2.11.8
+
+services:
+  - docker
+
+install:
+  - ./tools/travis/setup.sh
+
+script:
+  - travis_wait 66 ./tools/travis/build.sh

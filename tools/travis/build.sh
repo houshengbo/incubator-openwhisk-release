@@ -23,6 +23,3 @@ parse_yaml test.yaml
 eval $(parse_yaml test.yaml)
 echo $output_file
 
-
-
-

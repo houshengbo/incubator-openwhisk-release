@@ -13,6 +13,6 @@ install:
   - ./tools/travis/setup.sh
 
 script:
-  - travis_wait 66 ./tools/travis/build.sh
+  - ./tools/travis/build.sh
 
 
